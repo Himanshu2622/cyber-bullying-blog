@@ -1,2 +1,2 @@
-# cyber-bullying-blog
+# cyberbullying-blog
 Blog on Cyberbullying
