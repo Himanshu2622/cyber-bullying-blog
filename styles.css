@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 100%;
+    background-image: url("https://www.security.org/wp-content/uploads/2020/05/image1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    filter: brightness(70%);
+}
+h1{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 80px;
+    filter: brightness(100%);
+    color: #ffffff;
+}
+section{
+    display: flex;
+    background-color: rgb(219, 231, 241);
+}
+menu{
+    flex: 1;
+}
+section div{
+    flex: 4;
+}
+.info{
+    font-family: 'Karla', sans-serif;
+    letter-spacing: 1.5px;
+    word-spacing: 3px;
+    line-height: 1.7;
+    font-size: 20px;
+}
+h3{
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Exo 2', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-size: 40px;
+    padding-top: 30px;
+}
+h4{
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    font-size: 20px; 
+}
+ul{
+    list-style-image: url("C:/Users/himan/Desktop/English/images/list1.jpg");
+    
+}
+.right{
+    padding: 16px;
+}
+a{
+    text-decoration: none;
+    
+}
+li a:link {
+    color: black;
+}
+li a:visited{
+    color: black;
+}
+li a:hover{
+    color: rgb(128, 122, 122);
+}
+li a:active{
+    color: black;
+}
+footer{
+    background-color: black;
+    height: 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right:last-child{
+    padding-bottom: 80px;
+}
