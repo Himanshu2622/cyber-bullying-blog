@@ -25,10 +25,14 @@ section{
     background-color: rgb(219, 231, 241);
 }
 menu{
-    flex: 1;
+    flex: 2;
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+    /* padding-bottom: 80px; */
 }
 section div{
-    flex: 4;
+    flex: 7;
 }
 .info{
     font-family: 'Karla', sans-serif;
@@ -42,7 +46,7 @@ h3{
     font-family: 'Exo 2', sans-serif;
     /* font-family: 'Open Sans', sans-serif; */
     font-size: 40px;
-    padding-top: 30px;
+    padding-top: 16px;
 }
 h4{
     font-family: 'Roboto', sans-serif;
@@ -50,15 +54,14 @@ h4{
     font-size: 20px; 
 }
 ul{
-    list-style-image: url("C:/Users/himan/Desktop/English/images/list1.jpg");
-    
+    /* list-style-image: url("C:/Users/himan/Desktop/English/images/list1.jpg"); */
+    list-style-type: none;
 }
 .right{
-    padding: 16px;
+    /* padding: 16px; */
 }
 a{
-    text-decoration: none;
-    
+    text-decoration: none; 
 }
 li a:link {
     color: black;
@@ -82,4 +85,7 @@ footer{
 }
 .right:last-child{
     padding-bottom: 80px;
+}
+.list-items{
+    padding: 0px;
 }
