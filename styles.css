@@ -32,7 +32,10 @@ menu{
     /* padding-bottom: 80px; */
 }
 section div{
-    flex: 7;
+    flex: 9;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: rgb(255, 255, 255);
 }
 .info{
     font-family: 'Karla', sans-serif;
@@ -47,6 +50,7 @@ h3{
     /* font-family: 'Open Sans', sans-serif; */
     font-size: 40px;
     padding-top: 16px;
+    text-decoration: wavy;
 }
 h4{
     font-family: 'Roboto', sans-serif;
@@ -54,8 +58,10 @@ h4{
     font-size: 20px; 
 }
 ul{
-    /* list-style-image: url("C:/Users/himan/Desktop/English/images/list1.jpg"); */
+    list-style-image: url("images/list1.jpg");
     list-style-type: none;
+    padding: 0px;
+    padding-left: 25px;
 }
 .right{
     /* padding: 16px; */
@@ -88,4 +94,20 @@ footer{
 }
 .list-items{
     padding: 0px;
+}
+
+.sub-heading{
+    font-size: 27px;
+}
+.photo{
+    float: right;
+    margin: 10px 20px 10px 10px;
+}
+.photo1{
+    float: left;
+    margin: 10px 10px 10px 0px;
+}
+.photo2{
+    float: right;
+    margin: 10px 20px 10px 10px;
 }
