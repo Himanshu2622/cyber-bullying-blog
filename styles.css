@@ -57,7 +57,7 @@ h4{
     cursor: pointer;
     font-size: 20px; 
 }
-ul{
+.list-1{
     list-style-image: url("images/list1.jpg");
     list-style-type: none;
     padding: 0px;
@@ -124,4 +124,7 @@ footer{
 .quote-center{
     margin:auto; 
     display:table;
+}
+.list-2{
+    list-style-type: disc;
 }
