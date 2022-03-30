@@ -111,11 +111,16 @@ footer{
     float: right;
     margin: 10px 20px 10px 10px;
 }
+.wrap{
+    display: flex;
+}
 .role1{
-    float: left;
+    flex: 2;
     margin: 10px 20px 10px 0px;
 }
-
+.wrap-2{
+    flex: 8;
+}
 .quote-center{
     margin:auto; 
     display:table;
