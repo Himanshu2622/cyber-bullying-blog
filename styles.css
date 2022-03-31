@@ -128,3 +128,12 @@ footer{
 .list-2{
     list-style-type: disc;
 }
+.sub-heading1{
+    font-size: 25px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
