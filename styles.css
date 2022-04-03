@@ -2,6 +2,7 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
+
 header{
     display: flex;
     justify-content: center;
@@ -63,9 +64,11 @@ h4{
     padding: 0px;
     padding-left: 25px;
 }
+/*
 .right{
-    /* padding: 16px; */
+    padding: 16px;
 }
+*/
 a{
     text-decoration: none; 
 }
@@ -146,4 +149,9 @@ footer{
 }
 .subhead2{
     font-size: 25px;
+}
+.team-head{
+    margin-top: 40px;
+    font-size: 35px;
+    color: #000000;
 }
