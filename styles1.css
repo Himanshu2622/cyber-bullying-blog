@@ -1,0 +1,57 @@
+body{
+    box-sizing: border-box;
+    background-image: url("images/team1.jpg");
+    margin: 0px;
+}
+.team{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.member{
+    font-size: 20px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 1000;
+    height: 260px;
+    width: 200px;
+    margin: auto;
+    background-color: rgb(177, 177, 177);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 7px 7px -1px rgba(104, 179, 236, 0.788);
+}
+.line-break {
+    width: 100%;
+}
+#a1{
+    width: 960;
+}
+#a2{
+    width: 720;
+}
+#a3{
+    width: 720;
+}
+img{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 153px;
+    width: 153px;
+}
+div > div{
+    text-align: center;
+    width: 153px;
+    margin: auto;
+}
+header{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 80px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    color: aliceblue;
+}
