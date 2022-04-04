@@ -22,7 +22,7 @@ body{
     background-color: rgb(198, 4, 4);
     text-align: center;
     border-radius: 5px;
-    box-shadow: 0 7px 7px -1px rgba(104, 179, 236, 0.788);
+    box-shadow: 0 7px 7px -1px rgba(197, 199, 200, 0.788);
 }
 .line-break {
     width: 100%;
@@ -110,20 +110,88 @@ li:hover > .back {
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
     transform: rotateY(180deg);    
-    background: #21303e;
+    background: #009688;
 }
 #box1 {
-    background: rgb(157, 187, 232);
+    background: rgb(255, 255, 255);
 }
 h3{
     margin-top: 30px;
     margin-bottom: 30px;
 }
-footer{
-    background-color: black;
-    height: 80px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
+
+/* body {
+  font-family: 'Poppins', sans-serif;
+} */
+
+.sspan {
+    position: absolute;
+    left: 50%;
+    top: 13%;
+    transform: translate(-50%, -50%);
+    display: block;
+    color: #cf1b1b;
+    font-size: 100px;
+    letter-spacing: 4px;
+}
+
+.sspan::before {
+  content: "Team Members";
+  width: 100%;
+  position: absolute;
+  color: transparent;
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent 0,
+    transparent 2px,
+    white 2px,
+    white 4px
+  );
+  -webkit-background-clip: text;
+  top: 0px;
+  left: 0;
+  z-index: -1;
+  transition: 1s;
+}
+
+.sspan::after {
+  content: "Team Members";
+  position: absolute;
+  color: transparent;
+  background-image: repeating-linear-gradient(
+    135deg,
+    transparent 0,
+    transparent 2px,
+    white 2px,
+    white 4px
+  );
+  -webkit-background-clip: text;
+  top: 0px;
+  left: 0px;
+  transition: 1s;
+}
+
+.sspan:hover:before {
+  top: 10px;
+  left: 10px;
+}
+
+.sspan:hover:after {
+  top: -10px;
+  left: -10px;
+} 
+
+header{
+    margin-top: 170px;
+    margin-bottom: 40px;
+    font-weight: 1000;
+    background: linear-gradient(
+        60deg,
+      rgb(255, 208, 242), 
+      rgb(192, 230, 255)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
 }
