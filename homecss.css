@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/team1.jpg");
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: rgb(246, 231, 231);
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 200px;
+    margin-bottom: 40px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+button{
+    font-size: 20px;
+    width: 300px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: rgb(250, 245, 245);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover span{
+    border: none;
+}
+footer{
+    background-color: black;
+    height: 80px;
+    color: rgb(243, 237, 237);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro{
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-image: url("https://static.vecteezy.com/system/resources/previews/004/256/685/large_2x/abstract-white-gradient-geometric-background-modern-background-design-wave-liquid-shapes-composition-creative-templates-fit-for-presentation-design-website-basis-for-banners-wallpapers-brochure-free-vector.jpg");
+    /* z-index: -10; */
+}
+.text1{
+    width: 70%;
+    margin: auto;
+    padding: 60px;
+    padding-bottom: 50px;
+    font-size: 18px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    font-weight: 800;
+}
+.buttons{
+    width: auto;
+    height: auto;
+}
+.but{
+    font-size: 20px;
+    width: 300px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: rgb(1, 1, 1);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    /* z-index: 2000; */
+}
+.buts{
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+    transition: 0.5s;
+}
+.but:hover span{
+    width: 100%;
+}
+.but:hover span{
+    border: none;
+}
+.but{
+    margin-bottom: 60px;
+}
