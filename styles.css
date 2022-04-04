@@ -58,6 +58,7 @@ h4{
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
     font-size: 20px; 
+    padding-left: 5px;
 }
 .list-1{
     list-style-image: url("images/list1.jpg");
